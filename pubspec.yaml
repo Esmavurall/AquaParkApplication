@@ -1,0 +1,101 @@
+name: aquapark
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+
+# Uygulama sürümü
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+# ===========================
+# Paketler
+# ===========================
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^10.3.1
+
+  # HTTP istekleri
+  http: ^1.2.0
+
+  # iOS ikonları
+  cupertino_icons: ^1.0.8
+
+  # İnternet bağlantısı kontrolü
+  connectivity_plus: ^7.2.0
+
+  # Stream yapısı
+  rxdart: ^0.28.0
+
+  # Pasta grafik
+  pie_chart: ^5.4.0
+
+  # Dependency Injection
+  get_it: ^9.2.1
+
+  # Tarih formatlama
+  intl: ^0.20.2
+
+  # Türkçe ve İngilizce dil desteği
+  easy_localization: ^3.0.8
+
+# ===========================
+# Geliştirme Paketleri
+# ===========================
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Uygulama ikonunu otomatik oluşturur
+  flutter_launcher_icons: ^0.14.4
+
+# ===========================
+# Launcher Icon Ayarları
+# ===========================
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  # iOS ve eski Android cihazlar için tam kare, kenarları dolu ikon
+  image_path: "assets/images/TalyAqua_icon_square_1024.png"
+
+  # Android 8+ adaptive icon: iki ayrı katman
+  # (bu sayede logo güvenli alanda kalır, sistem kendi maskesini uygular)
+  adaptive_icon_background: "assets/images/talyaqua_adaptive_background.png"
+  adaptive_icon_foreground: "assets/images/talyaqua_adaptive_foreground.png"
+
+  # Android minimum sürüm
+  min_sdk_android: 21
+
+# ===========================
+# Flutter Ayarları
+# ===========================
+flutter:
+
+  # Material ikonlarını projeye ekler
+  uses-material-design: true
+
+  # Assets klasörü
+  assets:
+    - assets/images/
+    - assets/translations/
+
+
+
+  # Fontlar
+  fonts:
+    - family: BitcountGridDouble
+      fonts:
+        - asset: assets/fonts/BitcountGridDouble-Black.ttf
+
+        - asset: assets/fonts/BitcountGridDouble-Bold.ttf
+          weight: 700
+
+        - asset: assets/fonts/BitcountGridDouble_Cursive-Bold.ttf
+          style: italic

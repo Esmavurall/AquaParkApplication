@@ -1,0 +1,292 @@
+{
+  "app_name": "TalyAqua",
+
+
+  "welcome_feature_line_1": "Quick login • Online tickets • Secure payment",
+  "welcome_feature_line_2": "Water slides, wave pools and family-friendly activities",
+  "welcome_slogan": "Unlimited fun is waiting for you.",
+  "continue_to_login": "Continue to Login",
+
+  "common": {
+    "error": "Error",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "refresh": "Refresh",
+    "retry": "Try Again",
+    "loading": "Loading...",
+    "information_loading": "Loading information...",
+    "unknown": "Unknown",
+    "no_data": "No data found",
+    "success": "Success",
+    "user": "User",
+    "yes": "Yes",
+    "no": "No"
+  },
+
+  "user": "User",
+  "hotel_id": "Hotel ID",
+  "quick_actions": "Quick Actions",
+  "quick_actions_description": "Select the action you want to perform.",
+  "dashboard": "Dashboard",
+  "dashboard_description": "View general sales and visitor data.",
+  "daily_sales": "Daily Sales",
+  "daily_sales_description": "Review daily ticket, payment and sales records.",
+
+  "menu": {
+    "settings": "Settings",
+    "profile": "Profile",
+    "language": "Language",
+    "select_language": "Select Language",
+    "turkish": "Türkçe",
+    "english": "English",
+    "logout": "Log Out",
+    "logout_confirmation": "Are you sure you want to log out?"
+  },
+
+  "login": {
+    "title": "Sign In",
+    "description": "Enter your information to access your account.",
+    "tenant_id": "Organization ID",
+    "username": "Username",
+    "password": "Password",
+    "login_button": "Sign In",
+    "success": "Login successful",
+    "failed": "Login failed",
+    "tenant_required": "Organization ID cannot be empty.",
+    "username_required": "Username cannot be empty.",
+    "password_required": "Password cannot be empty."
+  },
+
+  "connection": {
+    "offline_title": "No internet connection",
+    "offline_description": "An internet connection is required to use the application.\nPlease check your connection.",
+    "try_again": "Try again",
+    "checking": "Checking the connection..."
+  },
+
+  "date": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "select_date": "Select Date",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "apply": "Apply",
+    "filter": "Filter",
+    "last_year_today": "This Day Last Year",
+    "last_year_this_month": "This Month Last Year",
+    "last_year": "Last Year",
+    "date_not_available": "Date information is unavailable"
+  },
+
+  "dashboard_page": {
+    "title": "Dashboard",
+    "error_title": "Error",
+    "tickets": "Tickets",
+    "revenues": "Revenues",
+    "turnstile_passages": "Turnstile Passages",
+    "payments": "Payments",
+    "default_record": "Record {}",
+    "no_chart_data": "No chart data found",
+    "no_dashboard_data": "No dashboard data found",
+    "refresh_description": "Press the refresh button to reload the data.",
+
+    "metrics": {
+      "agency_adult": "Agency Adult",
+      "agency_child": "Agency Child",
+      "walkin_adult": "Walk-in Adult",
+      "walkin_child": "Walk-in Child",
+      "member_adult": "Member Adult",
+      "member_child": "Member Child",
+      "total_adult": "Total Adult",
+      "total_child": "Total Child",
+      "agency_total": "Agency Total",
+      "walkin_total": "Walk-in Total",
+      "member_total": "Member Total",
+      "total_entrance_revenue": "Total Entrance Revenue"
+    }
+  },
+
+  "daily_sales_page": {
+    "title": "Daily Sales",
+    "show_end_of_day_summary": "Show End of Day Summary",
+    "hide_end_of_day_summary": "Hide End of Day Summary",
+    "select_date": "Select Date",
+    "filter": "Filter",
+
+    "tabs": {
+      "all_records": "All Records",
+      "members": "Members",
+      "active_reservations": "Active Reservations",
+      "cancelled": "Cancelled"
+    },
+
+    "empty": {
+      "title": "No Records Found",
+      "description": "New transactions will be displayed here."
+    },
+
+    "summary": {
+      "title": "End of Day Summary",
+      "ticket": "Ticket",
+      "tickets": "Tickets",
+      "ticket_count": "{} Tickets",
+      "expense": "Expense",
+      "payment": "Payment",
+      "net_balance": "Net Balance",
+      "total_records": "Total Records",
+      "total_amount": "Total Amount"
+    },
+
+    "card": {
+      "member": "Member",
+      "reservation": "Reservation",
+      "cancelled": "Cancelled",
+      "active": "Active",
+      "closed": "Closed",
+      "transaction_code": "Transaction Code: {}",
+      "cashier": "Cashier: {}",
+      "waiter": "Waiter: {}",
+      "agency": "Agency: {}",
+      "guest": "Guest: {}",
+      "ticket_number": "Ticket No: {}",
+      "balance": "Balance",
+      "check_total": "Check Total",
+      "payment_total": "Payment Total",
+      "view_details": "View Details"
+    }
+  },
+
+  "daily_sales_detail": {
+    "title": "Ticket Details",
+    "ticket": "Ticket #{}",
+    "ticket_number": "Ticket No: {}",
+    "refresh": "Refresh",
+
+    "empty": {
+      "title": "Ticket details could not be found",
+      "description": "Please try reloading the information.",
+      "retry": "Try Again"
+    },
+
+    "header": {
+      "total_amount": "Total Amount"
+    },
+
+    "information": {
+      "check_date": "Check Date",
+      "address": "Address",
+      "other_ticket_information": "Other Ticket Information",
+      "check_id": "Check ID",
+      "department_name": "Department Name",
+      "opening_time": "Opening Time",
+      "closing_time": "Closing Time",
+      "table_name": "Table Name",
+      "check_type": "Check Type",
+      "waiter_name": "Waiter Name",
+      "cashier_name": "Cashier Name",
+      "check_number": "Check Number",
+      "document_type": "Document Type",
+      "document_number": "Document Number",
+      "pos_card_name": "POS Card Name",
+      "hotel_guest": "Hotel Guest",
+      "notes": "Notes"
+    },
+    "api_values": {
+      "revenue_types": {
+        "entrance_revenue": "Entrance Revenue"
+      },
+
+      "products": {
+        "adult_horse_one_lap": "Adult Horse - 1 Lap",
+        "child_horse_one_lap": "Child Horse - 1 Lap",
+        "entrance_ticket": "Entrance Ticket"
+      },
+
+      "product_groups": {
+        "beverage": "Beverage",
+        "food": "Food"
+      },
+
+      "payment_types": {
+        "cash": "Cash",
+        "credit_card": "Credit Card",
+        "debit_card": "Debit Card",
+        "room_account": "Room Account",
+        "bank_transfer": "Bank Transfer"
+      }
+    },
+
+    "tabs": {
+      "products": "Products",
+      "payments": "Payments"
+    },
+
+    "loading": "Loading information...",
+
+    "products": {
+      "title": "Products",
+      "default_name": "Product",
+      "empty": "No products were found for this check.",
+      "quantity_price_one": "{} item x {} {}",
+      "quantity_price_other": "{} items x {} {}",
+      "revenue_type": "Revenue type: {}",
+      "waiter": "Waiter: {}",
+      "line_total": "{} {}"
+    },
+
+    "payments": {
+      "title": "Payments",
+      "default_name": "Payment",
+      "empty": "No payments were found for this check.",
+      "performed_by": "Processed by: {}",
+      "guest_card_number": "Guest Card No: {}",
+      "amount": "{} {}"
+    },
+
+    "date_not_available": "Date information is unavailable"
+  },
+
+  "errors": {
+    "general": "An unexpected error occurred.",
+    "connection": "Could not connect to the server. Please check your internet connection.",
+    "timeout": "The request timed out.",
+    "session_not_found": "Session information could not be found. Please log in again.",
+    "invalid_response": "An invalid response was received from the server.",
+
+    "server_unreachable": "The server could not be reached. Please check your internet connection or the server status.",
+    "request_timeout": "The server did not respond in time. Please try again.",
+    "invalid_server_response": "An invalid response was received from the server.",
+    "connection_failed": "A connection to the server could not be established.",
+    "bad_request": "The submitted request is invalid.",
+    "session_expired": "Your session has expired. Please log in again.",
+    "access_denied": "You do not have permission to perform this operation.",
+    "service_not_found": "The requested service could not be found.",
+    "server_error": "A server error occurred. Please try again later.",
+    "unknown_error": "An unexpected error occurred.",
+
+    "active_tickets_failed": "Active tickets could not be loaded: {}",
+    "cancelled_tickets_failed": "Cancelled tickets could not be loaded: {}",
+
+    "detail_service_failed": "The detail service failed: {}",
+    "invalid_detail_response": "An invalid response was received from the detail service.",
+    "sales_detail_not_found": "Sales details could not be found.",
+    "invalid_sales_detail": "The sales detail data is invalid.",
+
+    "products_service_failed": "The product service failed: {}",
+    "invalid_products_response": "An invalid response was received from the product service.",
+    "products_failed": "Products could not be loaded: {}",
+
+    "payments_service_failed": "The payment service failed: {}",
+    "invalid_payments_response": "The payment API response format is invalid.",
+    "payments_failed": "Payment information could not be loaded: {}",
+
+    "dashboard_failed": "Dashboard data could not be loaded.",
+    "login_failed": "Login failed.",
+    "tenant_endpoint_not_found": "The organization could not be found or its API address could not be retrieved.",
+    "invalid_credentials": "The username or password is incorrect.",
+    "request_failed": "The request could not be completed."
+  }
+}
+

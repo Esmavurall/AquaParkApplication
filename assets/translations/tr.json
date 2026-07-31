@@ -1,0 +1,287 @@
+{
+  "app_name": "TalyAqua",
+
+  "welcome_feature_line_1": "Hızlı giriş • Online bilet • Güvenli ödeme",
+  "welcome_feature_line_2": "Kaydıraklar, dalga havuzları ve aile dostu aktiviteler",
+  "welcome_slogan": "Sınırsız eğlence seni bekliyor.",
+  "continue_to_login": "Giriş yaparak devam et",
+
+  "common": {
+    "error": "Hata",
+    "ok": "Tamam",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "refresh": "Yenile",
+    "retry": "Tekrar Dene",
+    "loading": "Yükleniyor...",
+    "success": "Başarılı",
+    "information_loading": "Bilgiler yükleniyor...",
+    "unknown": "Bilinmiyor",
+    "no_data": "Veri bulunamadı",
+    "user": "Kullanıcı",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+
+  "user": "Kullanıcı",
+  "hotel_id": "Otel ID",
+  "quick_actions": "Hızlı İşlemler",
+  "quick_actions_description": "Yapmak istediğiniz işlemi seçin.",
+  "dashboard": "Gösterge Paneli",
+  "dashboard_description": "Genel satış ve ziyaretçi verilerini görüntüleyin.",
+  "daily_sales": "Günlük Satışlar",
+  "daily_sales_description": "Günlük bilet, ödeme ve satış kayıtlarını inceleyin.",
+
+  "menu": {
+    "settings": "Ayarlar",
+    "profile": "Profil",
+    "language": "Dil",
+    "select_language": "Dil Seçimi",
+    "turkish": "Türkçe",
+    "english": "English",
+    "logout": "Çıkış Yap",
+    "logout_confirmation": "Oturumu kapatmak istediğinize emin misiniz?"
+  },
+
+  "login": {
+    "title": "Giriş Yap",
+    "description": "Hesabınıza erişmek için bilgilerinizi girin.",
+    "tenant_id": "Kurum ID",
+    "username": "Kullanıcı Adı",
+    "password": "Şifre",
+    "login_button": "Giriş Yap",
+    "success": "Giriş başarılı",
+    "failed": "Giriş başarısız",
+    "tenant_required": "Kurum ID alanı boş bırakılamaz.",
+    "username_required": "Kullanıcı adı alanı boş bırakılamaz.",
+    "password_required": "Şifre alanı boş bırakılamaz."
+  },
+
+  "connection": {
+    "offline_title": "İnternet bağlantısı yok",
+    "offline_description": "Uygulamayı kullanmak için internet bağlantısı gerekli.\nLütfen bağlantınızı kontrol edin.",
+    "try_again": "Tekrar dene",
+    "checking": "Bağlantı kontrol ediliyor..."
+  },
+
+  "date": {
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "tomorrow": "Yarın",
+    "select_date": "Tarih Seç",
+    "start_date": "Başlangıç Tarihi",
+    "end_date": "Bitiş Tarihi",
+    "apply": "Uygula",
+    "filter": "Filtrele",
+    "last_year_today": "Geçen Yıl Bu Gün",
+    "last_year_this_month": "Geçen Yıl Bu Ay",
+    "last_year": "Geçen Yıl",
+    "date_not_available": "Tarih bilgisi yok"
+  },
+
+  "dashboard_page": {
+    "title": "Gösterge Paneli",
+    "error_title": "Hata",
+    "tickets": "Biletler",
+    "revenues": "Gelirler",
+    "turnstile_passages": "Turnike Geçişleri",
+    "payments": "Ödeme",
+    "default_record": "Kayıt {}",
+    "no_chart_data": "Grafik verisi bulunamadı",
+    "no_dashboard_data": "Gösterge paneli verisi bulunamadı",
+    "refresh_description": "Verileri yeniden yüklemek için yenile butonuna basın.",
+
+    "metrics": {
+      "agency_adult": "Acenta Yetişkin",
+      "agency_child": "Acenta Çocuk",
+      "walkin_adult": "Münferit Yetişkin",
+      "walkin_child": "Münferit Çocuk",
+      "member_adult": "Üye Yetişkin",
+      "member_child": "Üye Çocuk",
+      "total_adult": "Toplam Yetişkin",
+      "total_child": "Toplam Çocuk",
+      "agency_total": "Acenta Toplam",
+      "walkin_total": "Münferit Toplamı",
+      "member_total": "Üye Toplam",
+      "total_entrance_revenue": "Toplam Giriş Geliri"
+    }
+  },
+
+  "daily_sales_page": {
+    "title": "Günlük Satışlar",
+    "show_end_of_day_summary": "Gün Sonu Özetini Göster",
+    "hide_end_of_day_summary": "Gün Sonu Özetini Gizle",
+    "select_date": "Tarih Seç",
+    "filter": "Filtrele",
+
+    "tabs": {
+      "all_records": "Tüm Kayıtlar",
+      "members": "Üyeler",
+      "active_reservations": "Aktif Rezervasyonlar",
+      "cancelled": "İptaller"
+    },
+
+    "empty": {
+      "title": "Gösterilecek Kayıt Bulunamadı",
+      "description": "Yeni bir işlem gerçekleştiğinde burada görüntülenecektir."
+    },
+
+    "summary": {
+      "title": "Gün Sonu Özeti",
+      "ticket": "Bilet",
+      "tickets": "Bilet",
+      "ticket_count": "{} Bilet",
+      "expense": "Harcama",
+      "payment": "Ödeme",
+      "net_balance": "Net Bakiye",
+      "total_records": "Toplam Kayıt",
+      "total_amount": "Toplam Tutar"
+    },
+
+    "card": {
+      "member": "Üye",
+      "reservation": "Rezervasyon",
+      "cancelled": "İptal",
+      "active": "Aktif",
+      "closed": "Kapalı",
+      "transaction_code": "İşlem Kodu: {}",
+      "cashier": "Kasiyer: {}",
+      "waiter": "Garson: {}",
+      "agency": "Acenta: {}",
+      "guest": "Misafir: {}",
+      "ticket_number": "Bilet No: {}",
+      "balance": "Bakiye",
+      "check_total": "Adisyon Toplamı",
+      "payment_total": "Ödeme Toplamı",
+      "view_details": "Detayları Gör"
+    }
+  },
+
+  "daily_sales_detail": {
+    "title": "Bilet Detayı",
+    "ticket": "Bilet #{}",
+    "ticket_number": "Bilet No: {}",
+    "refresh": "Yenile",
+
+
+    "empty": {
+      "title": "Bilet detayı bulunamadı",
+      "description": "Bilgileri yeniden yüklemeyi deneyebilirsiniz.",
+      "retry": "Tekrar Dene"
+    },
+
+    "header": {
+      "total_amount": "Toplam Tutar"
+    },
+
+    "information": {
+      "check_date": "Adisyon Tarihi",
+      "address": "Adres",
+      "other_ticket_information": "Diğer Bilet Bilgileri",
+      "check_id": "Adisyon ID",
+      "department_name": "Departman Adı",
+      "opening_time": "Açılış Saati",
+      "closing_time": "Kapanış Saati",
+      "table_name": "Masa Adı",
+      "check_type": "Adisyon Türü",
+      "waiter_name": "Garson Adı",
+      "cashier_name": "Kasiyer Adı",
+      "check_number": "Adisyon No",
+      "document_type": "Evrak Tipi",
+      "document_number": "Evrak No",
+      "pos_card_name": "POS Kart İsmi",
+      "hotel_guest": "Otel Misafiri",
+      "notes": "Notlar"
+    },
+
+    "tabs": {
+      "products": "Ürünler",
+      "payments": "Ödemeler"
+    },
+
+    "loading": "Bilgiler yükleniyor...",
+
+    "products": {
+      "title": "Ürünler",
+      "default_name": "Ürün",
+      "empty": "Bu adisyona ait ürün bulunamadı.",
+      "quantity_price_one": "{} adet x {} {}",
+      "quantity_price_other": "{} adet x {} {}",
+      "revenue_type": "Gelir türü: {}",
+      "waiter": "Garson: {}",
+      "line_total": "{} {}"
+    },
+    "api_values": {
+      "revenue_types": {
+        "entrance_revenue": "Giriş Geliri"
+      },
+      "product_groups": {
+        "beverage": "İçecek",
+        "food": "Yiyecek"
+      },
+      "payment_types": {
+        "cash": "Nakit",
+        "credit_card": "Kredi Kartı",
+        "payment_types": {
+          "cash": "Nakit",
+          "credit_card": "Kredi Kartı",
+          "debit_card": "Banka Kartı",
+          "room_account": "Oda Hesabı",
+          "bank_transfer": "Havale"
+        }
+      }
+    },
+
+    "payments": {
+      "title": "Ödemeler",
+      "default_name": "Ödeme",
+      "empty": "Bu adisyona ait ödeme bulunamadı.",
+      "performed_by": "İşlemi yapan: {}",
+      "guest_card_number": "Misafir Kartı No: {}",
+      "amount": "{} {}"
+    },
+
+    "date_not_available": "Tarih bilgisi yok"
+  },
+
+  "errors": {
+    "general": "Beklenmeyen bir hata oluştu.",
+    "connection": "Sunucuya bağlanılamadı. İnternet bağlantınızı kontrol edin.",
+    "timeout": "İstek zaman aşımına uğradı.",
+    "session_not_found": "Oturum bilgisi bulunamadı. Lütfen tekrar giriş yapın.",
+    "invalid_response": "Sunucudan geçersiz bir cevap geldi.",
+
+    "server_unreachable": "Sunucuya erişilemiyor. İnternet bağlantınızı veya sunucu durumunu kontrol edin.",
+    "request_timeout": "Sunucu zamanında cevap vermedi. Lütfen tekrar deneyin.",
+    "invalid_server_response": "Sunucudan geçersiz bir cevap alındı.",
+    "connection_failed": "Sunucu bağlantısı kurulamadı.",
+    "bad_request": "Gönderilen istek geçersiz.",
+    "session_expired": "Oturum süreniz doldu. Lütfen tekrar giriş yapın.",
+    "access_denied": "Bu işlemi yapmak için yetkiniz bulunmuyor.",
+    "service_not_found": "İstenen servis bulunamadı.",
+    "server_error": "Sunucuda bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "unknown_error": "Beklenmeyen bir hata oluştu.",
+
+    "active_tickets_failed": "Aktif biletler çekilemedi: {}",
+    "cancelled_tickets_failed": "İptal edilen biletler çekilemedi: {}",
+
+    "detail_service_failed": "Detay servisi başarısız: {}",
+    "invalid_detail_response": "Detay servisinden geçersiz cevap geldi.",
+    "sales_detail_not_found": "Satış detayı bulunamadı.",
+    "invalid_sales_detail": "Satış detay verisi geçersiz.",
+
+    "products_service_failed": "Ürün servisi başarısız: {}",
+    "invalid_products_response": "Ürün servisinden geçersiz cevap geldi.",
+    "products_failed": "Ürünler çekilemedi: {}",
+
+    "payments_service_failed": "Ödeme servisi başarısız: {}",
+    "invalid_payments_response": "Ödeme API yanıt biçimi geçersiz.",
+    "payments_failed": "Ödeme bilgileri alınamadı: {}",
+
+    "dashboard_failed": "Gösterge paneli verileri alınamadı.",
+    "login_failed": "Giriş başarısız.",
+    "tenant_endpoint_not_found": "Kurum bulunamadı veya API adresi alınamadı.",
+    "invalid_credentials": "Kullanıcı adı veya şifre hatalı.",
+    "request_failed": "İstek tamamlanamadı."
+  }
+}
