@@ -1,8 +1,8 @@
-# AquaParkApplication
+# TalyAqua
 
 ## Proje Hakkında
 
-AquaParkApplication, staj sürecinde Flutter ve Dart kullanılarak geliştirilen mobil bir AquaPark yönetim uygulamasıdır. Uygulama, AquaPark içerisindeki günlük operasyonların takip edilmesini kolaylaştırmak amacıyla geliştirilmiştir.
+TalyAqua, staj sürecinde Flutter ve Dart kullanılarak geliştirilen mobil bir AquaPark yönetim uygulamasıdır. Uygulama, AquaPark içerisindeki günlük operasyonların takip edilmesini kolaylaştırmak amacıyla geliştirilmiştir.
 
 Sistem, REST API üzerinden aldığı verileri gerçek zamanlı olarak kullanıcıya sunmaktadır. Günlük satışlar, gelir analizleri, ödeme bilgileri, bilet detayları ve istatistiksel veriler modern ve kullanıcı dostu bir arayüz ile görüntülenmektedir.
 
