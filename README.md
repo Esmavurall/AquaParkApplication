@@ -6,6 +6,7 @@ TalyAqua, staj sürecinde Flutter ve Dart kullanılarak geliştirilen mobil bir 
 
 Sistem, REST API üzerinden aldığı verileri gerçek zamanlı olarak kullanıcıya sunmaktadır. Günlük satışlar, gelir analizleri, ödeme bilgileri, bilet detayları ve istatistiksel veriler modern ve kullanıcı dostu bir arayüz ile görüntülenmektedir.
 
+
 ---
 
 
